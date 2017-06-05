@@ -69,7 +69,7 @@ export default class Template extends React.Component {
                   textDecoration: "none",
                 }}
               >
-                Gatsby
+                Homepage
               </Link>
             </h1>
           </div>
@@ -77,9 +77,9 @@ export default class Template extends React.Component {
            <nav style={styles.navigation}> 
              <ul style={styles.list}>
                 <li style={styles.listItem,styles.first}><h3><Link to={prefixLink('/')}>Main</Link></h3></li>
-                <li style={styles.listItem}><h3><Link to={prefixLink('/page-2/')}>Skills</Link></h3></li>
-                <li style={styles.listItem}><h3><Link to={prefixLink('/page-3/')}>Portfolio</Link></h3></li>
-                <li style={styles.listItem,styles.last}><h3><Link to={prefixLink('/page-3/')}>Contacts</Link></h3></li>
+                <li style={styles.listItem}><h3><Link to={prefixLink('/skills/')}>Skills</Link></h3></li>
+                <li style={styles.listItem}><h3><Link to={prefixLink('/portfolio/')}>Portfolio</Link></h3></li>
+                <li style={styles.listItem,styles.last}><h3><Link to={prefixLink('/contacts/')}>Contacts</Link></h3></li>
               </ul>
             </nav>
         <div
