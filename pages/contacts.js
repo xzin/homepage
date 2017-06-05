@@ -19,8 +19,8 @@ export default class Index extends React.Component {
         <h1>
           Contacts
         </h1>
-        <p><Link  style={styles.link} to='mailto:holatchahl@gmail.com'>Email: holatchahl@gmail.com</Link></p>
-        <p><Link  style={styles.link} to='skype:aitops'>Skype: aitops</Link></p>
+        <p><a  style={styles.link} href='mailto:holatchahl@gmail.com'>Email: holatchahl@gmail.com</a></p>
+        <p><a  style={styles.link} href='skype:aitops'>Skype: aitops</a></p>
       </div>
     )
   }
