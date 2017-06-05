@@ -1,10 +1,5 @@
 # gatsby-starter-default
-The default Gatsby starter
+My homepage
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
-## Deploy
+Homepage using Gatsby js
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
